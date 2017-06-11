@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Info {
     private static final Random RANDOM = new Random();
-
+	private static final String s;
     public static int getRandomCheeseDrawable() {
         switch (RANDOM.nextInt(5)) {
             default:
